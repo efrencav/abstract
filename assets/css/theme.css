@@ -4313,7 +4313,7 @@ main-slide
 
 .main-slide__title {
   font-family: 'Playfair Display', serif;
-  font-size: 140px;
+  font-size: 82px;
   line-height: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -4321,7 +4321,7 @@ main-slide
 }
 
 .main-slide_size_medium .main-slide__title {
-  font-size: 120px;
+  font-size: 80px;
 }
 
 .main-slide__label-wrapper {
@@ -6002,7 +6002,7 @@ project-detail
 .project-detail__title {
   font-size: 48px;
   line-height: 0.625;
-  font-family: 'Teko', Helvetica, sans-serif;
+  font-family: 'Playfair Display', serif;
   margin-bottom: 70px;
 }
 
