@@ -1294,9 +1294,9 @@ contact-block
 }
 
 .contact-block__place {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 1.25;
-  font-family: 'Teko', Helvetica, sans-serif;
+  font-family: 'Playfair Display', serif;
   margin-top: 74px;
   margin-bottom: 20px;
 }
