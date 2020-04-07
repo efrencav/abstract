@@ -7134,7 +7134,7 @@ studio-intro-slide
 .service-intro-slide {
   display: -ms-flexbox;
   display: flex;
-  min-height: 50vh;
+  min-height: 100vh;
   background-size: cover;
   background-position: 50%;
   /* text-align: center; */
