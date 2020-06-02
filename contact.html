@@ -165,13 +165,14 @@
               <form name="contact" method="POST" netlify-honeypot data-netlify="true">
                 <div class="row">
                   <div class="col-12 col-sm-6">
-                    <input class="contact-block__input-text" placeholder="Name" type="text" />
+                    <input class="contact-block__input-text" placeholder="Name" type="text" name="name" />
                   </div>
                   <div class="col-12 col-sm-6">
-                    <input class="contact-block__input-text" placeholder="Subject" type="text" />
+                    <input class="contact-block__input-text" placeholder="Subject" type="text" name="subject" />
                   </div>
                   <div class="col-12">
-                    <textarea class="contact-block__input-textarea" placeholder="Your message goes here."></textarea>
+                    <textarea class="contact-block__input-textarea" placeholder="Your message goes here."
+                      name="messsage"></textarea>
                     <button class="contact-block__submit">Send Message
                       <span class="contact-block__submit-icon icofont-caret-right"></span>
                     </button>
