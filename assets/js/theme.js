@@ -544,7 +544,7 @@
 
     if (typedElement) {
       var options = {
-        strings: ['itself', 'its value'],
+        strings: ['its value', 'itself'],
         typeSpeed: 60,
         backSpeed: 40,
         startDelay: 1200,
