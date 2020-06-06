@@ -141,6 +141,10 @@ h6:last-child,
   margin-bottom: 0;
 }
 
+.alt-font {
+  font-family: 'Playfair Display', serif !important;
+}
+
 .tc-light h1,
 .tc-light h2,
 .tc-light h3,
@@ -4567,8 +4571,9 @@ masonry-block
 */
 
 .masonry-block {
-  padding-bottom: 110px;
+  /* padding-bottom: 110px; */
   border-bottom: 1px solid #ebebeb;
+  background-color: #ffffff;
 }
 
 .masonry-block__grid {
@@ -4991,10 +4996,11 @@ minimal-head-block
 .minimal-head-block {
   padding-top: 250px;
   padding-bottom: 116px;
+  background: #ffffff;
 }
 
 .minimal-head-block__title {
-  font-size: 80px;
+  font-size: 70px;
   line-height: 1.05;
   font-family: 'Teko', Helvetica, sans-serif;
   margin-bottom: 24px;
@@ -5012,6 +5018,7 @@ minimal-head-block
   bottom: 3px;
   top: -5px;
   width: 100%;
+  /* line-height: 3em; */
   background: #f24a00;
 }
 
@@ -8897,6 +8904,14 @@ zoom-slider
   color: #2b2b2b !important;
 }
 
+.grey {
+  color: #000000 !important;
+}
+
+.headline-grey {
+  color: #2b2b2b !important;
+}
+
 .orange {
  color: #f14201;
 }
@@ -9056,4 +9071,8 @@ zoom-slider
 .testimonial-bg {
   padding: 150px 52px;
   background: url("../../assets/img/about-bg.jpg") no-repeat center;
+}
+
+.z-index {
+  z-index: -20;
 }
