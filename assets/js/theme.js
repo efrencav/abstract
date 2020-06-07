@@ -1022,7 +1022,7 @@
 })(jQuery);
 
 var greet = [
-  'What are you doing that early?',
+  'What are you doing up this early?',
   'Good Morning',
   'Good Afternoon',
   'Good Evening'
