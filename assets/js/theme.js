@@ -1,4 +1,4 @@
-(function($) {
+(function ($) {
   'use strict';
 
   function getScrollBarWidth() {
@@ -59,9 +59,9 @@
     isFirefox: typeof InstallTrigger !== 'undefined',
     isSafari: /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor),
     isIE: /* @cc_on!@*/false || !!document.documentMode,
-    isEdge: !function () {this.isIE;} && !!window.StyleMedia, // eslint-disable-line
+    isEdge: !function () { this.isIE; } && !!window.StyleMedia, // eslint-disable-line
     isChrome: !!window.chrome && !!window.chrome.webstore,
-    isBlink: (function () {this.isChrome;} || function () {this.isOpera;}) && !!window.CSS // eslint-disable-line
+    isBlink: (function () { this.isChrome; } || function () { this.isOpera; }) && !!window.CSS // eslint-disable-line
   };
 
   var detectMobile = {
@@ -167,7 +167,7 @@
   svg4everybody();
 
   // revolution-slider
-  (function() {
+  (function () {
     var sliderElementSelector = '.revolution-slider__slider';
     var sliderElement = document.querySelector(sliderElementSelector);
 
@@ -176,10 +176,10 @@
         tpj = jQuery;
 
       tpj(document).ready(function () {
-        if (tpj(sliderElementSelector).revolution == undefined){
+        if (tpj(sliderElementSelector).revolution == undefined) {
           revslider_showDoubleJqueryError(sliderElementSelector);
-        }else {
-          $(sliderElementSelector).each(function(index, item) {
+        } else {
+          $(sliderElementSelector).each(function (index, item) {
             revapi = tpj(item).show().revolution({
               sliderType: 'standard',
               jsFileLocation: '//tpserver.local/R_5452/wp-content/plugins/revslider/public/assets/js/',
@@ -243,11 +243,11 @@
               revapi.revSliderSlicey();
             }
 
-            $('.revolution-prev').on('click', function() {
+            $('.revolution-prev').on('click', function () {
               revapi.revprev();
             });
 
-            $('.revolution-next').on('click', function() {
+            $('.revolution-next').on('click', function () {
               revapi.revnext();
             });
           });
@@ -283,7 +283,7 @@
           if (po > 100) po = 100;
           if (po < 20) po = 0;
           po = (100 - po) / 100;
-          TweenLite.to(layer, 0.2, {opacity: po});
+          TweenLite.to(layer, 0.2, { opacity: po });
         });
       });
     }
@@ -297,7 +297,7 @@
       $(window).on('scroll', function () {
         var pixs = element.getBoundingClientRect().top;
         pixs = pixs / -50;
-        $(element).css({'filter': 'blur('+pixs+'px)'});
+        $(element).css({ 'filter': 'blur(' + pixs + 'px)' });
       });
     }
   })();
@@ -544,7 +544,7 @@
 
     if (typedElement) {
       var options = {
-        strings: ['themeselves', 'value', 'civilization'],
+        strings: ['its value', 'itself'],
         typeSpeed: 60,
         backSpeed: 40,
         startDelay: 1200,
@@ -559,7 +559,7 @@
   // parallax-block
   (function () {
     if ($('.parallax-block').length) {
-      $(window).on('load', function(){
+      $(window).on('load', function () {
         var rellax = new Rellax('.parallax-block__image');
       });
     }
