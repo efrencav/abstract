@@ -114,6 +114,7 @@ h6,
 .h1 {
   font-family: 'Playfair Display', serif;
   font-size: 80px;
+  line-height: 0.875 !important;
 }
 .h2,
 .h3,
@@ -7263,7 +7264,7 @@ studio-intro-slide
   font-family: 'Playfair Display', serif;
   font-size: 80px;
   /* line-height: 0.875; */
-  line-height: 1;
+  line-height: 0.675em !important;
   -ms-flex-positive: 1;
   flex-grow: 1;
   margin-bottom: 57px;
