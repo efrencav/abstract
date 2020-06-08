@@ -555,6 +555,23 @@
       var typed = new Typed(typedElement, options);
     }
   })();
+  // intro shifting messages
+  (function () {
+    var typedElement = document.querySelector('.minimal-head-block__intro-label');
+
+    if (typedElement) {
+      var options = {
+        strings: ['Advertising', 'Branding', 'Digital', 'Print.'],
+        typeSpeed: 80,
+        backSpeed: 60,
+        startDelay: 1200,
+        backDelay: 2000,
+        showCursor: true
+      };
+
+      var typed = new Typed(typedElement, options);
+    }
+  })();
 
   // parallax-block
   (function () {
@@ -1026,7 +1043,7 @@ var greet = [
   'Good Morning',
   'Good Afternoon',
   'Good Evening'
-][ parseInt(new Date().getHours() / 24 * 4) ];
+][parseInt(new Date().getHours() / 24 * 4)];
 
 
 document.getElementById("greeting").innerHTML = greet;
