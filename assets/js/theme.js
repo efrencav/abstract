@@ -564,7 +564,7 @@
         strings: ['Advertising', 'Branding', 'Digital', 'Print.'],
         typeSpeed: 80,
         backSpeed: 60,
-        startDelay: 1200,
+        startDelay: 0,
         backDelay: 2000,
         showCursor: true
       };
