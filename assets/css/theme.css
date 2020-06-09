@@ -8739,8 +8739,8 @@ zoom-slider
 */
 
 .zoom-slider {
-  padding-top: 18px;
-  margin-bottom: 148px;
+  padding-top: 38px;
+  /* margin-bottom: 148px; */
 }
 
 .zoom-slider_top-offset {
@@ -9100,7 +9100,7 @@ zoom-slider
 .about-bg {
   padding: 150px 52px;
   background: url("../../assets/img/about-bg.jpg") no-repeat center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   height: 900px;
 }
 
@@ -9110,7 +9110,7 @@ zoom-slider
 }
 
 .z-index {
-  z-index: -20;
+  z-index: -9999;
 }
 
 .hr-short {
@@ -9182,7 +9182,7 @@ zoom-slider
   width: 25px;
 }
 
-.hr-long span:after, {
+.hr-long span:after {
   background: #f14201;
   content: "";
   height: 1px;
@@ -9211,4 +9211,128 @@ zoom-slider
   content: "";
   height: 1px;
   position: absolute;
+}
+
+
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none; }
+
+/* ------------- Tabsh Style 1 -------------- */
+/* #trinity{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#trinity .trinity_tabs_part .trinity_tabs_left_part{
+  width: 25%;
+  background-color: #f14201;
+  margin-right: 100px;
+}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs{
+  padding:0;
+  width: 110px;
+  border-radius: 5px 0 0 5px;
+}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs .nav-item{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  display: table;}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs .nav-item .nav-link{
+  background-color: #ffffff;
+  margin:0;
+  border-radius: 0;
+  display: table-cell;
+  position: relative;
+  padding:0;vertical-align: 
+  middle;border:0;}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs .nav-item .nav-link span{
+  color: #fff;
+  font-size: 25px;
+}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs .nav-item .nav-link p{
+  color: #999999;
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+  margin:10px 10px;
+}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active{
+  background-color: #f14201;
+  background-color: transparent !important;
+  right: 620%;
+  color: #f14201 !important;
+  height: 1px;
+}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active:after{
+  border-left-color:#f14201;
+}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active:before{
+  background: #2b2b2b;
+  height: 1px;
+  position: absolute;
+  width: 2000px;
+  z-index: -1;
+  color: #000000;
+  right: -620%;
+}
+
+#trinity .trinity_tabs_part .trinity_tabs_right_part{width: 75%;}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content{padding-top: 10px;}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_head .title{
+  font-size: 30px;
+  color: #000;
+  position: relative;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_head .title:after{
+  content: "";
+  display: block;
+  width: 65px;
+  height: 2px;
+  background-color: #f14201;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+}
+
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_description p{
+  font-size: 16px;
+  margin-bottom: 10px;}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_description p:last-child{
+  margin-bottom: 0;}
+
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_btn{
+  margin-top: 30px;
+}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_btn a{
+  color: #fff;
+  background-color: #f14201;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 42px;
+  display: inline-block;
+}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_btn a:hover{
+  text-decoration: none;
+  height: 1px;
+  content: "";
+  position: absolute;
+  width: 2000px;
+} */
+
+/* ------------- / Tabsh Style 1 -------------- */
+
+.padding-top-100px {
+  padding-top: 100px;
+}
+.padding-top-75px {
+  padding-top: 75px;
+}
+.padding-top-50px {
+  padding-top: 50px;
 }
