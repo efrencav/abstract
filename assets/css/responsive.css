@@ -865,4 +865,11 @@
   .zoom-image-head__text {
     font-size: 16px;
   }
+
+  .about-bg {
+    padding: 150px 52px;
+    background: url('../../assets/img/about-bg-575px.jpg') no-repeat center;
+    height: 1630px;
+    width: 100%;
+  }
 }

@@ -1038,12 +1038,12 @@
   })();
 })(jQuery);
 
-var greet = [
-  'What are you doing up this early?',
-  'Good Morning',
-  'Good Afternoon',
-  'Good Evening'
-][parseInt(new Date().getHours() / 24 * 4)];
+// var greet = [
+//   'What are you doing up this early?',
+//   'Good Morning',
+//   'Good Afternoon',
+//   'Good Evening'
+// ][parseInt(new Date().getHours() / 24 * 4)];
 
 
-document.getElementById("greeting").innerHTML = greet;
+// document.getElementById("greeting").innerHTML = greet;
