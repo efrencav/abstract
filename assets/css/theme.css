@@ -7330,20 +7330,6 @@ studio-intro-slide
     color: #fff;
 }
 
-@media (min-width: 1920px) and (max-width: 2560px) {
-    .studio-intro-slide {
-        display: -ms-flexbox;
-        display: flex;
-        min-height: 100vh;
-        background-size: cover;
-        background-position: 50%;
-        /* text-align: center; */
-        position: relative !important;
-        z-index: 999 !important;
-        color: #fff;
-    }
-}
-
 .studio-intro-slide__container {
     display: -ms-flexbox;
     display: flex;
@@ -9519,4 +9505,19 @@ select:focus {
 h4 {
     font-size: 22px;
     font-family: 'Roboto', Helvetica, sans-serif !important;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    .studio-intro-slide__container h1:before {
+        background: #ffffff;
+        content: '';
+        height: 1px;
+        position: absolute;
+        top: 100px;
+        right: 103%;
+        width: 2000px;
+        font-family: 'Playfair Display', serif;
+        font-size: 60px!important;
+        line-height: 0.875 !important;
+    }
 }
