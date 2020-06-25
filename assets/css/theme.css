@@ -5089,12 +5089,12 @@ minimal-head-block
     bottom: 3px;
     top: -5px;
     width: 100%;
-    /* line-height: 3em; */
-    background: #f24a00;
+    line-height: 3em;
+    /* background: #f24a00; */
 }
 
 .minimal-head-block__label {
-    color: #fff;
+    color: #000;
     display: inline-block;
     vertical-align: bottom;
     padding: 0 10px;
@@ -5115,8 +5115,8 @@ minimal-head-block
     bottom: 3px;
     top: 10px;
     width: 100%;
-    /* line-height: 3em; */
-    /* background: #2b2b2b; */
+    line-height: 3em;
+    background: #2b2b2b;
 }
 
 .minimal-head-block__intro-label {
