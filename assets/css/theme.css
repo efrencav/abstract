@@ -7312,22 +7312,11 @@ studio-intro-slide
     min-height: 100vh;
     background-size: cover;
     background-position: 50%;
-    /* text-align: center; */
     position: relative !important;
-    z-index: 999 !important;
     color: #fff;
-}
-
-.studio-intro-slide {
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 50vh;
-    background-size: cover;
-    background-position: 50%;
-    /* text-align: center; */
-    position: relative !important;
-    z-index: 999 !important;
-    color: #fff;
+    background: url('../../assets/img/zoom-image-head-bg-2560px.jpg') no-repeat center;
+    height: 1280px;
+    top: 20px;
 }
 
 .studio-intro-slide__container {
@@ -9228,11 +9217,7 @@ zoom-slider
     background: url('../../assets/img/about-bg.jpg') no-repeat center;
     /* margin-bottom: 50px; */
     height: 900px;
-}
-
-.testimonial-bg {
-    padding: 150px 52px;
-    background: url('../../assets/img/about-bg.jpg') no-repeat center;
+    /* width: 2560px; */
 }
 
 .z-index {
@@ -9439,10 +9424,6 @@ select:focus {
 
 .padding-right-30px {
     padding-right: 30px;
-}
-
-.padding-50px-top {
-    padding-top: 50px;
 }
 
 .db {

@@ -4,11 +4,25 @@
         display: flex;
         min-height: 100vh;
         background-size: cover;
-        background-position: 50%;
-        /* text-align: center; */
-        position: relative !important;
-        z-index: 999 !important;
+        background-position: center;
         color: #fff;
+    }
+    .about-bg {
+        padding: 150px 52px;
+        background: url('../../assets/img/about-bg.jpg') no-repeat center;
+        /* margin-bottom: 50px; */
+        height: 900px;
+        width: 2560px;
+    }
+    .studio-intro-slide__container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-top: 130px;
+        padding-bottom: 90px;
     }
 }
 
@@ -690,7 +704,7 @@
         padding: 150px 52px;
         background: url('../../assets/img/about-bg-575px.jpg') no-repeat center;
         height: 1630px;
-        width: 100%;
+        width: 575px;
     }
     h1 {
         font-family: 'Playfair Display', serif;
@@ -718,9 +732,45 @@
     .zoom-counter__subtitle {
         font-size: 14px;
     }
+    .zoom-counter__card {
+        width: 45%;
+        min-width: 30%;
+        margin-right: 10%;
+    }
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem!important;
+        line-height: 0.875 !important;
+    }
+    .zoom-counter__info {
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        width: 375px;
+    }
+    /* .service-intro-slide {
+        display: -ms-flexbox;
+        display: flex;
+        min-height: 100vh;
+        background-size: cover;
+        background-position: 50%;
+        position: relative !important;
+        color: #fff;
+ 
+    } */
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    .studio-intro-slide__container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-top: 130px;
+        padding-bottom: 90px;
+        width: 375px;
+    }
     h1 {
         font-family: 'Playfair Display', serif;
         font-size: 60px!important;
@@ -743,5 +793,47 @@
         top: 140px;
         right: 103%;
         width: 2000px;
+    }
+    .about-bg {
+        padding: 150px 52px;
+        background: url('../../assets/img/about-bg-375px.jpg') no-repeat center;
+        height: 1063px;
+        width: 375px;
+    }
+    .zoom-counter__card {
+        width: 20%;
+        min-width: 30%;
+        margin-right: 10%;
+    }
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem!important;
+        line-height: 0.875 !important;
+    }
+    .zoom-counter__info {
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        width: 375px;
+    }
+    .zoom-counter__card {
+        padding: 54px 59px 60px 66px;
+        background-size: cover;
+        background-position: 50%;
+        text-transform: uppercase;
+        margin-bottom: 80px;
+        width: 25.3%!important;
+        min-width: 25.3%!important;
+        position: relative;
+        margin-right: 14.4%;
+    }
+    .zoom-counter__card:before {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        top: 30px;
+        right: 30px;
+        bottom: 30px;
+        left: 30px;
+        background: #fff;
     }
 }
