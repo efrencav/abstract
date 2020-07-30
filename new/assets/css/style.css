@@ -21,6 +21,11 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
+:root {
+    --white:#ffffff
+    --orange: $F14403;
+  }
+
 img,
 legend {
     border: 0
@@ -206,13 +211,13 @@ select {
 }
 
 .button1 {
-    color: #FFFFFF!important;
+    color: var(--white)!important;
     text-decoration: none;
 }
 
 .button1:hover {
     text-decoration: none;
-    color: #F14403!important;
+    color: var(--orange)!important;
 }
 
 button,
