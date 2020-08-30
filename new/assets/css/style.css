@@ -29991,3 +29991,15 @@ body:not(.woocommerce-checkout) .woo_c-message-group .message-box {
     padding: 20px 0;
     color: #888888;
 }
+
+.clb_custom_bg_section:before {
+    content: '';
+    position: absolute;
+    width: 760px;
+    height: 760px;
+    border-radius: 100%;
+    mix-blend-mode: multiply;
+    background-color: #F14403!important;
+    top: 0px;
+    right: 0px;
+}
